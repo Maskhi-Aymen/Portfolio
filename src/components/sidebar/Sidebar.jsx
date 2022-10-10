@@ -16,16 +16,16 @@ const Sidebar = React.memo(() => {
   const [state, dispatch] = useReducer(reducer, defaultOptions)
   return (
     <>
-      <BsListNested
+      <BsListNested 
         onClick={() => dispatch({ type: 'OPEN_NAVBAR' })}
         className="menu-icon switch__color"
       />
-      <aside
+      <aside 
         className={`${state.openCloseNav1 ? 'aside open-sidebar' : 'aside'} ${
           state.showAside1 ? 'aside show-asideBar' : 'aside'
         }`}
       >
-        <div className="aside-wrapper">
+        <div className="aside-wrapper" >
           <BsXLg
             onClick={() => dispatch({ type: 'CLOSE_NAVBAR' })}
             className="close-btn switch__color"
@@ -40,12 +40,12 @@ const Sidebar = React.memo(() => {
             }}
             to="/"
           >
-             <img src={man} className="sidebar__logo"/>
+             <img src={man} className="sidebar__logo" />
    {/*         <span className="switch__color" style={{ fontSize: '1.2rem' }}>
               Abdullahi
           </span>*/}
           </Link>
-          <ul className="side-link">
+          <ul className="side-link" >
             {sideBarMenu.map((link, index) => {
               const { text, icon, url } = link
               return (
@@ -64,7 +64,7 @@ const Sidebar = React.memo(() => {
               )
             })}
           </ul>
-          <div className="social-icon">
+          <div className="social-icon" >
             {socialIcons.map((icons, index) => {
               const { icon, url } = icons
               return (

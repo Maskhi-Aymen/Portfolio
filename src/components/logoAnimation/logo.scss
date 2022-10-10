@@ -3,22 +3,17 @@
   width: 33%;
   position: absolute;
   left: 63%;
-  display: block;
-  // animation: fadeIn 10s linear;
-  opacity: 0;
 
-  svg {
-    width: 100%;
-    height: auto;
-    fill: transparent;
-  }
+  // animation: fadeIn 10s linear;
+
+
   .solid-logo {
-    position: absolute;
+
     top: auto;
     right: auto;
     left: 0;
     width: 100%;
-    opacity: 0.4;
+    opacity: 1;
     z-index: 1;
   }
 }
