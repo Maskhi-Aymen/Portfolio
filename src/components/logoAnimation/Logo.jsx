@@ -1,6 +1,7 @@
 import React from 'react'
 import './logo.scss'
 import { DrawSVGPlugin } from 'gsap-trial/DrawSVGPlugin'
+import 'https://assets.codepen.io/16327/DrawSVGPlugin3.min.js'
 import gsap from 'gsap'
 
 const Logo = () => {

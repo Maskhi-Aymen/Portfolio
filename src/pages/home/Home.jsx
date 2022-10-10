@@ -1,6 +1,6 @@
 import React from 'react'
 // components
-import { Header, Blogs } from '../../components'
+import { Header} from '../../components'
 // pages
 import { Contact, About, ProjectPage } from '../../pages'
 
