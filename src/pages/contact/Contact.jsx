@@ -226,7 +226,7 @@ const Contact = React.memo(() => {
           </Fade>
           <Reveal bottom>
             <footer className="footer">
-              <p> &copy; copyright All Right Reserved Almarex - 2022</p>
+              <p> &copy; copyright All Right Reserved Aymen Maskhi - 2022</p>
             </footer>
           </Reveal>
         </form>
